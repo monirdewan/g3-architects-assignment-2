@@ -518,6 +518,10 @@ body{
     .feature-intro h3::before{
         height: 100%;
     }
+    .top-features{
+        gap: 50px;
+       
+     }
     .single-features{
         width:100%;
     }
@@ -561,6 +565,10 @@ body{
     width: 90%;
     padding: 20px 5px;
     margin: 0 auto;
+}
+
+.single-achivement p span{
+    margin-top: 10px;
 }
 
 .single-achivement:hover{
@@ -608,16 +616,8 @@ body{
 
 .contact-address{
     grid-template-columns: 1fr;
+    margin: 0 auto;
 }
-
-
-
-
-
-
-
-
-
 /* Footer Area CSS */
 
 
