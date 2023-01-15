@@ -211,6 +211,7 @@ body{
 
 .popular-feature-img img{
     width: 100%;
+   border: 1px solid #ddd;
 }
 
 .popular-feature-img button{
@@ -224,7 +225,10 @@ body{
     text-align: center;
     border: 0;
     border-radius: 10px;
-    margin: -90px 0 0 -50px;
+    position: relative;
+    right: 80px;
+    bottom: 80px;
+    /* margin: -90px 0 0 -50px; */
 }
 
 .popular-feature-img button span{
@@ -232,6 +236,97 @@ body{
     display: block;
     line-height: 40px;
     font-weight: 500px;
+}
+
+/* Our Achivement */
+
+.achivement-area{
+    margin: 50px auto;
+}
+
+.achivement-area h3{
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 52px;
+    color: #131313;
+}
+
+.achivement-area p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    color: #727272;
+    width: 50%;
+    margin-top: 20px;
+}
+
+.our-achivements{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.single-achivement{
+    width: 20%;
+    border: 1px solid #FF900E;
+    padding: 30px 10px;
+    transition: transform .5s ease-in;
+}
+
+.single-achivement:hover{
+    transform: rotate(360deg) scale(1.2);
+}
+
+.single-achivement span{
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    color: #727272;
+    display: block;
+}
+
+.single-achivement p{
+    width: 100%;
+    font-size: 45px;
+    font-weight: 600;
+    line-height: 52px;
+    margin-top: 0;
+    color: #424242;
+}
+
+
+/* Our Sponspors area CSS */
+.our-sponspors-area{
+    margin:100px auto 0 auto;
+    text-align: center;
+}
+
+.our-sponspors-area h3{
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 52px;
+    color: #131313;
+}
+
+.our-sponspors-area p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    color: #727272;
+    width: 50%;
+    margin: 25px auto;
+}
+
+.our-sponspors{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px 0;
+}
+
+.our-sponspors img{
+    filter: grayscale(1);
 }
 
 
